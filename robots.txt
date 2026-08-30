@@ -1,5 +1,4 @@
 User-agent: *
 Allow: /
 
-# Após publicar, você pode acrescentar aqui a URL absoluta do sitemap.
-# Sitemap: https://SEU-USUARIO.github.io/SEU-REPOSITORIO/sitemap.xml
+Sitemap: https://tibram88.github.io/tiago-amaral-gestao-trafego/sitemap.xml
