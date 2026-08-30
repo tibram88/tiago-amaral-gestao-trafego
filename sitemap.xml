@@ -1,6 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!-- Substitua BASE_URL pela URL pública final antes de enviar este sitemap a mecanismos de busca. -->
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
-  <url><loc>BASE_URL/</loc><changefreq>monthly</changefreq><priority>1.0</priority></url>
-  <url><loc>BASE_URL/privacy.html</loc><changefreq>yearly</changefreq><priority>0.4</priority></url>
+  <url>
+    <loc>https://tibram88.github.io/tiago-amaral-gestao-trafego/</loc>
+    <changefreq>monthly</changefreq>
+    <priority>1.0</priority>
+  </url>
+  <url>
+    <loc>https://tibram88.github.io/tiago-amaral-gestao-trafego/privacy.html</loc>
+    <changefreq>yearly</changefreq>
+    <priority>0.4</priority>
+  </url>
 </urlset>
