@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://tibram88.github.io/tiago-amaral-gestao-trafego/sitemap.xml
+Sitemap: https://tibram.com.br/sitemap.xml
