@@ -21,6 +21,7 @@
   <meta name="twitter:card" content="summary_large_image">
   <link rel="icon" href="favicon.svg" type="image/svg+xml">
   <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/redesign.css">
   <script defer src="js/main.js"></script>
 </head>
 <body>
@@ -46,32 +47,40 @@
   </header>
 
   <main id="conteudo">
-    <section class="hero" id="inicio" aria-labelledby="hero-title">
+    <section class="hero hero-v2" id="inicio" aria-labelledby="hero-title">
       <div class="hero-grid container">
         <div class="hero-copy reveal">
-          <div class="eyebrow"><span></span> Gestão de tráfego pago</div>
-          <h1 id="hero-title">Estratégia para transformar <em>intenção</em> em oportunidade.</h1>
+          <div class="eyebrow"><span></span> Gestão de tráfego pago <small>Google Ads</small></div>
+          <h1 id="hero-title"><span>Estratégia para</span> transformar <em>intenção</em> <span>em oportunidade.</span></h1>
           <p class="hero-lead">Gestão de Google Ads com atenção à mensuração, leitura de dados e melhoria contínua — para tomar decisões de mídia com mais clareza, não apenas gerar cliques.</p>
           <div class="hero-actions">
             <a class="btn btn-primary" href="#metodo">Conheça meu método <span aria-hidden="true">↘</span></a>
             <a class="btn btn-ghost" href="#contato">Fale comigo</a>
           </div>
-          <ul class="hero-tags" aria-label="Áreas de atuação">
-            <li>Google Ads</li><li>Mensuração</li><li>Otimização</li><li>Monitoramento</li>
-          </ul>
+          <p class="hero-signature"><span class="mono">TA / PRINCÍPIO 01</span> Performance com método.</p>
         </div>
-        <div class="hero-visual reveal reveal-delay" aria-label="Retrato profissional de Tiago Amaral">
-          <div class="photo-frame">
-            <img src="assets/images/tiago-amaral-hero.webp" width="900" height="1345" alt="Tiago Amaral sentado à mesa em ambiente de trabalho" fetchpriority="high">
-            <div class="photo-caption" aria-hidden="true"><span>01</span><span>Performance com método</span></div>
+        <div class="hero-visual reveal reveal-delay" aria-label="Retrato profissional de Tiago Amaral integrado a uma composição abstrata de dados">
+          <div class="hero-grid-lines" aria-hidden="true"></div>
+          <div class="hero-photo">
+            <picture>
+              <source type="image/avif" srcset="assets/images/tiago-amaral-hero-v2-640.avif 640w, assets/images/tiago-amaral-hero-v2-900.avif 900w" sizes="(max-width: 760px) 92vw, (max-width: 980px) 70vw, 43vw">
+              <source type="image/webp" srcset="assets/images/tiago-amaral-hero-v2-640.webp 640w, assets/images/tiago-amaral-hero-v2-900.webp 900w" sizes="(max-width: 760px) 92vw, (max-width: 980px) 70vw, 43vw">
+              <img src="assets/images/tiago-amaral-hero-v2-900.webp" width="900" height="1396" alt="Tiago Amaral sentado à mesa em ambiente profissional" fetchpriority="high">
+            </picture>
           </div>
-          <div class="signal-card" aria-hidden="true">
-            <span class="signal-dot"></span>
-            <div><strong>Analisar antes de escalar.</strong><small>Dados → decisão → otimização</small></div>
-          </div>
+          <svg class="performance-curve" viewBox="0 0 620 260" role="img" aria-label="Curva abstrata representando observação e evolução de desempenho">
+            <path class="curve-grid" d="M0 52H620M0 130H620M0 208H620M124 0V260M310 0V260M496 0V260"/>
+            <path class="curve-line" d="M14 218 C92 214 102 172 168 178 S253 202 312 139 S398 155 451 94 S536 91 605 36"/>
+            <circle cx="168" cy="178" r="5"/><circle cx="312" cy="139" r="5"/><circle cx="451" cy="94" r="5"/><circle cx="605" cy="36" r="5"/>
+          </svg>
+          <div class="hero-index mono" aria-hidden="true"><span>01</span><span>PERFORMANCE / MÉTODO</span></div>
         </div>
       </div>
-      <div class="hero-rule container" aria-hidden="true"><span></span><small>Estratégia · Dados · Método</small></div>
+      <ol class="hero-markers container" aria-label="Princípios do processo de gestão">
+        <li><span>01</span><strong>Medir</strong><small>O que está acontecendo</small></li>
+        <li><span>02</span><strong>Interpretar</strong><small>O que os sinais indicam</small></li>
+        <li><span>03</span><strong>Otimizar</strong><small>Qual é o próximo ajuste</small></li>
+      </ol>
     </section>
 
     <section class="statement section-dark" aria-labelledby="statement-title">
@@ -106,6 +115,14 @@
           <h2 id="method-title">Performance com método.</h2>
           <p>Não existe otimização séria sem contexto. Por isso, cada etapa procura responder uma pergunta antes de avançar para a próxima.</p>
           <div class="method-note"><span class="mono">PRINCÍPIO</span><strong>Testar sem perder a capacidade de explicar por que uma decisão foi tomada.</strong></div>
+          <figure class="method-portrait">
+            <picture>
+              <source type="image/avif" srcset="assets/images/tiago-amaral-metodo-v2-600.avif 600w, assets/images/tiago-amaral-metodo-v2-900.avif 900w" sizes="(max-width: 980px) 82vw, 34vw">
+              <source type="image/webp" srcset="assets/images/tiago-amaral-metodo-v2-600.webp 600w, assets/images/tiago-amaral-metodo-v2-900.webp 900w" sizes="(max-width: 980px) 82vw, 34vw">
+              <img src="assets/images/tiago-amaral-metodo-v2-900.webp" width="900" height="1125" loading="lazy" alt="Tiago Amaral concentrado durante uma análise">
+            </picture>
+            <figcaption><span class="mono">ANÁLISE / CONTEXTO</span><strong>Decisões explicáveis antes de movimentos maiores.</strong></figcaption>
+          </figure>
         </div>
         <ol class="method-steps">
           <li class="reveal"><span>01</span><div><h3>Entender</h3><p>Objetivo, oferta, público, região, operação comercial e o que caracteriza uma oportunidade real.</p></div><small>O que precisamos gerar?</small></li>
@@ -120,10 +137,18 @@
     <section class="technology section-mist" aria-labelledby="tech-title">
       <div class="container tech-grid">
         <div class="tech-visual reveal">
-          <div class="tech-panel">
-            <div class="tech-panel-top"><span class="status"><i></i> Monitoramento</span><span class="mono">ADS / DATA</span></div>
-            <div class="data-lines" aria-hidden="true"><span style="--w:78%"></span><span style="--w:56%"></span><span style="--w:88%"></span><span style="--w:42%"></span></div>
-            <div class="tech-labels"><span>Impressões</span><span>Cliques</span><span>Conversões</span><span>Custos</span></div>
+          <div class="tech-panel observation-panel">
+            <div class="tech-panel-top"><span class="status"><i></i> Observação contínua</span><span class="mono">ADS / CONTEXTO</span></div>
+            <div class="observation-map" aria-hidden="true">
+              <div class="observation-axis"><span>SINAL</span><span>CONTEXTO</span><span>DECISÃO</span></div>
+              <svg viewBox="0 0 620 250" preserveAspectRatio="none">
+                <path class="map-grid" d="M0 50H620M0 125H620M0 200H620M103 0V250M258 0V250M413 0V250M568 0V250"/>
+                <path class="map-path map-path-muted" d="M0 194 C98 202 123 138 204 157 S326 181 391 112 S501 139 620 72"/>
+                <path class="map-path" d="M0 216 C82 214 122 188 182 190 S287 155 352 163 S477 100 620 92"/>
+                <circle cx="182" cy="190" r="5"/><circle cx="352" cy="163" r="5"/><circle cx="620" cy="92" r="5"/>
+              </svg>
+              <div class="observation-events"><span>coleta</span><span>leitura</span><span>hipótese</span><span>revisão</span></div>
+            </div>
             <p>Dados servem para reduzir incerteza — não para decorar relatórios.</p>
           </div>
         </div>
@@ -139,7 +164,14 @@
 
     <section class="about section-light" id="sobre" aria-labelledby="about-title">
       <div class="container about-grid">
-        <div class="about-photo reveal"><img src="assets/images/tiago-amaral-sobre.webp" width="900" height="1125" loading="lazy" alt="Retrato profissional de Tiago Amaral em ambiente de escritório"><span class="image-index mono" aria-hidden="true">02 / SOBRE</span></div>
+        <div class="about-photo about-photo-v2 reveal">
+          <picture>
+            <source type="image/avif" srcset="assets/images/tiago-amaral-sobre-v2-520.avif 520w, assets/images/tiago-amaral-sobre-v2-748.avif 748w" sizes="(max-width: 980px) 88vw, 38vw">
+            <source type="image/webp" srcset="assets/images/tiago-amaral-sobre-v2-520.webp 520w, assets/images/tiago-amaral-sobre-v2-748.webp 748w" sizes="(max-width: 980px) 88vw, 38vw">
+            <img src="assets/images/tiago-amaral-sobre-v2-748.webp" width="748" height="1600" loading="lazy" alt="Retrato editorial em preto e branco de Tiago Amaral">
+          </picture>
+          <span class="image-index mono" aria-hidden="true">02 / SOBRE</span>
+        </div>
         <div class="about-copy reveal">
           <p class="section-kicker">Sobre</p>
           <h2 id="about-title">Tiago Amaral</h2>
@@ -154,7 +186,7 @@
     <section class="context section-dark" aria-labelledby="context-title">
       <div class="container context-grid">
         <div class="context-copy reveal"><p class="section-kicker">Construção contínua</p><h2 id="context-title">Uma presença profissional criada para crescer junto com o trabalho.</h2><p>Este site é parte da mesma lógica aplicada à gestão: começar com uma base sólida, simples de entender e preparada para evoluir. Novos serviços, estudos e projetos serão incorporados quando existirem de verdade — não antes.</p></div>
-        <div class="context-photo reveal"><img src="assets/images/tiago-amaral-trabalho.webp" width="900" height="1125" loading="lazy" alt="Tiago Amaral trabalhando diante de um computador em escritório"></div>
+        <div class="context-system reveal" aria-hidden="true"><span class="context-orbit"></span><span class="context-point point-a"></span><span class="context-point point-b"></span><span class="context-point point-c"></span><div><small class="mono">BASE / PROCESSO</small><strong>Medir</strong><strong>Investigar</strong><strong>Documentar</strong><strong>Melhorar</strong></div></div>
       </div>
     </section>
 
