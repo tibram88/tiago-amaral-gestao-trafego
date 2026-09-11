@@ -6,6 +6,8 @@ Site institucional estático em HTML, CSS e JavaScript, preparado para GitHub Pa
 
 - `index.html` — página principal
 - `privacy.html` — política de privacidade
+- `maestro.html` — apresentação pública do Maestro Tráfego
+- `terms.html` — termos de serviço
 - `css/style.css` — identidade visual e responsividade
 - `js/main.js` — menu, header e animações progressivas
 - `assets/images/` — imagens otimizadas em WebP e Open Graph
@@ -13,12 +15,4 @@ Site institucional estático em HTML, CSS e JavaScript, preparado para GitHub Pa
 - `robots.txt`
 - `sitemap.xml`
 
-## Antes de publicar
-
-Há apenas dois dados que dependem de informações que não foram fornecidas e, por isso, **não foram inventados**:
-
-2. Quando a URL final do GitHub Pages existir, substitua `BASE_URL` em `sitemap.xml` pela URL sem barra final e acrescente a URL absoluta do sitemap em `robots.txt`.
-
-Exemplo de BASE_URL: `https://usuario.github.io/tiago-amaral-trafego`
-
-Depois desses dois ajustes, o projeto não exige build, dependências ou servidor. Basta publicar os arquivos.
+O projeto não exige build ou dependências. As URLs canônicas, o sitemap e o arquivo `robots.txt` usam a URL pública do GitHub Pages.
